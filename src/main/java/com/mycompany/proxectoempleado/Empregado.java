@@ -75,7 +75,8 @@ public class Empregado {
     
     @Override
     public String toString() {
-        return "Empregado{" + "id=" + id + ", nome=" + nome + ", apelido1=" + apelido1 + ", apelido2=" + apelido2 + ", salario=" + salario + '}';
+        return "Empregado{" + "id=" + id + ", nome=" + nome + ", "
+                + "apelido1=" + apelido1 + ", apelido2=" + apelido2 + ", salario=" + salario + '}';
     }
 
     public double obterSalarioAnual(){
