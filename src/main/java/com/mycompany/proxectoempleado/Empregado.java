@@ -83,4 +83,8 @@ public class Empregado {
     return resultado;
     }
     
+    public double incrementarSalario(int porcentaxe){
+    double resultado= salario+ (salario*porcentaxe/100);
+    return resultado;
+    }
 }
