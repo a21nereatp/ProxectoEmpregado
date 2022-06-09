@@ -69,9 +69,18 @@ public class Empregado {
         this.id = id;
     }
 
+    public String amosarNomeCompleto(){
+        return "Empregado"+nome+""+apelido1+""+apelido2;
+    }
+    
     @Override
     public String toString() {
         return "Empregado{" + "id=" + id + ", nome=" + nome + ", apelido1=" + apelido1 + ", apelido2=" + apelido2 + ", salario=" + salario + '}';
     }
 
+    public double obterSalarioAnual(){
+    double resultado=salario*12;
+    return resultado;
+    }
+    
 }
